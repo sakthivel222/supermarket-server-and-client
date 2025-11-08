@@ -1,0 +1,43 @@
+CREATE DATABASE supermarkett;
+
+USE supermarket;
+
+CREATE TABLE products (
+  id INT AUTO_INCREMENT PRIMARY KEY,
+  name VARCHAR(50),
+  price DOUBLE
+);
+
+INSERT INTO products (name, price) VALUES
+('Soap', 45.00),
+('Shampoo', 120.00),
+('Rice Bag', 650.00),
+('Oil Packet', 160.00),
+('Sugar 1kg', 55.00),
+('Salt 1kg', 20.00),
+('Toothpaste', 90.00),
+('Toothbrush', 35.00),
+('Face Cream', 180.00),
+('Hair Oil 200ml', 110.00),
+('Milk 1L', 50.00),
+('Bread', 45.00),
+('Butter 100g', 85.00),
+('Eggs 6 Pack', 60.00),
+('Tea Powder 250g', 140.00),
+('Coffee Powder 200g', 180.00),
+('Biscuits Packet', 30.00),
+('Cool Drink 500ml', 45.00),
+('Wheat Flour 1kg', 70.00),
+('Maida 1kg', 60.00),
+('Detergent Powder 1kg', 150.00),
+('Floor Cleaner 1L', 130.00),
+('Mop Stick', 220.00),
+('Bucket 10L', 180.00),
+('Vegetable Oil 5L', 750.00),
+('Rice Bag 10kg', 1200.00),
+('Chocolate Bar', 50.00),
+('Peanuts 500g', 90.00),
+('Dry Fruits 250g', 220.00),
+('Handwash 250ml', 75.00);
+select*from products;
+
